@@ -220,9 +220,15 @@ body{
 
 @media(max-width : 750px){
     .conatiner{
-        position: absolute;
-       left: 15%;
+       position: fixed;
+       left: 10%;
+       right:10%;
        top:10%;
  
+    }
+
+    .clock{
+        width : 400px;
+        height: 400px;
     }
 }
